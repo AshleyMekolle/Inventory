@@ -1,0 +1,77 @@
+.sales-page {
+    padding: 20px;
+  }
+  
+  .sales-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .status-badge {.sales-page {
+    padding: 20px;
+  }
+  
+  .sales-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .daily-receipt-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .date-picker {
+    padding: 8px;
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .status-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .status-badge.completed {
+    background-color: var(--success);
+    color: var(--background);
+  }
+  
+  .status-badge.pending {
+    background-color: var(--warning);
+    color: var(--text);
+  }
+  
+  .status-badge.cancelled {
+    background-color: var(--danger);
+    color: var(--background);
+  }
+  
+  .table td {
+    vertical-align: middle;
+  }
+    padding: 5px 8px;
+    border-radius: 20px;
+    font-size: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .status-badge.completed {
+    background-color: var(--success);
+    color: var(--background);
+  }
+  
+  .status-badge.pending {
+    background-color: var(--warning);
+    color: var(--text);
+  }
+  
+  .status-badge.cancelled {
+    background-color: var(--danger);
+    color: var(--background);
+  }

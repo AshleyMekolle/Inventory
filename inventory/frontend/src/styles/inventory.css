@@ -1,0 +1,19 @@
+.inventory-page {
+    padding: 20px;
+  }
+  
+  .inventory-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .low-stock-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .low-stock-list li {
+    background-color: #FFCCCB;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }

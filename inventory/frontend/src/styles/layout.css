@@ -1,0 +1,36 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 5rem;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.background-blob {
+  position: absolute;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+  mix-blend-mode: multiply;
+  filter: blur(3rem);
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.blob-1 {
+  top: -8rem;
+  right: -8rem;
+  background-color: #4ade80;
+}
+
+.blob-2 {
+  bottom: -8rem;
+  left: -8rem;
+  background-color: #60a5fa;
+}
